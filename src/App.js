@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+import Footer from "./components/fotter";
+import Header from "./components/header";
+import Post from "./components/post/post";
+import ProfileModel from "./components/post/profile";
+
+export default function App() {
+  const [showModel, setShowModel] = useState(false);
+  const [usernameClickObj, setUsernameClickObj] = useState({});
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mx-auto min-h-screen p-4 faml">
+      <Header />
+      <Post
+        setShowModel={setShowModel}
+        setUsernameClickObj={setUsernameClickObj}
+      />
+      <Footer />
+      <ProfileModel
+        isVisable={showModel}
+        onClose={() => setShowModel(false)}
+        usernameClickObj={usernameClickObj}
+      />
     </div>
   );
 }
-
-export default App;
