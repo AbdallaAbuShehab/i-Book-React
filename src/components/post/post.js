@@ -96,7 +96,7 @@ export default function Post({ setShowModel, setUsernameClickObj }) {
 
             {/* //--- comments section ---// */}
             <div className=" mb-0 pb-0">
-              <p className="text-lg text-neutral-800 dark:text-neutral-200 font-semibold">
+              <p className="text-lg text-neutral-800 text-black font-semibold">
                 Comments
               </p>
               {commentData.map((comnt) =>
