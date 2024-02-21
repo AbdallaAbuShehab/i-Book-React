@@ -20,56 +20,56 @@ export default function ProfileModel({ isVisable, onClose, usernameClickObj }) {
           {/* //--- */}
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Name:
             </span>{" "}
             {usernameClickObj.name}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Username:
             </span>{" "}
             {usernameClickObj.username}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Email:
             </span>{" "}
             {usernameClickObj.email}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Street:
             </span>{" "}
             {usernameClickObj.address.street}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Suite:
             </span>{" "}
             {usernameClickObj.address.suite}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               City:
             </span>{" "}
             {usernameClickObj.address.city}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Zipcode:
             </span>{" "}
             {usernameClickObj.address.zipcode}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Coordinates:
             </span>{" "}
             {usernameClickObj.address.geo.lat} /{" "}
@@ -77,28 +77,28 @@ export default function ProfileModel({ isVisable, onClose, usernameClickObj }) {
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Phone:
             </span>{" "}
             {usernameClickObj.phone}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Website:
             </span>{" "}
             {usernameClickObj.website}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Company:
             </span>{" "}
             {usernameClickObj.company.name}
           </p>
 
           <p className="font-semibold text-neutral-500 dark:text-neutral-400 ">
-            <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+            <span className="font-semibold text-neutral-800 text-black">
               Business:
             </span>{" "}
             {usernameClickObj.company.bs}
