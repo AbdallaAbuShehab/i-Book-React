@@ -11,7 +11,7 @@ export default function Footer() {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <p className=" text-2xl rounded-r-lg bg-amber-300 p-2">&#9739;</p>
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
               i Book
             </span>
           </a>
