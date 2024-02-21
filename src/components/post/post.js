@@ -72,7 +72,7 @@ export default function Post({ setShowModel, setUsernameClickObj }) {
                 )
               )}
 
-              <p className="mb-4 font-light text-neutral-500 dark:text-neutral-300">
+              <p className="mb-4 font-light text-neutral-500 dark:text-neutral-400">
                 {post.body}
               </p>
 
