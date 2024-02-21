@@ -5,7 +5,7 @@ export default function Header() {
     <div className="grid grid-rows-2 grid-cols-1 gap-2 justify-items-center content-start rounded-xl //--- sm:flex justify-between items-center bg-stone-100 p-6 shadow-md">
       <div className=" cursor-pointer flex items-center">
         <p className=" text-2xl rounded-r-lg bg-amber-300 p-2">&#9739;</p>
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ml-3 text-black">
+        <span className="self-center text-2xl font-semibold whitespace-nowrap  ml-3 text-black">
           i Book
         </span>
       </div>
