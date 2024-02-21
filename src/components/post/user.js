@@ -1,7 +1,7 @@
 export default function User({ user, setShowModel, setUsernameClickObj }) {
   return (
     <div>
-      <p className=" text-xl font-semibold text-neutral-800 dark:text-neutral-200">
+      <p className=" text-xl font-semibold text-neutral-800 text-black">
         <span>{user.name}</span>
       </p>
       <p className=" font-semibold text-neutral-500 dark:text-neutral-400 ">
